@@ -503,6 +503,7 @@ background-color: #212121;
 .slider-img {
     background: url(../images/18.jpg)no-repeat fixed center;
     background-size: cover;
+    margin: 0 auto;
     min-height: 850px;
 }
 
