@@ -502,8 +502,8 @@ background-color: #212121;
 
 .slider-img {
     background: url(../images/18.jpg)no-repeat fixed center;
-    background-size: cover;
     margin: 0 auto;
+    background-size: cover;
     min-height: 850px;
 }
 
@@ -641,15 +641,18 @@ background-color: #212121;
     
 }
 .clients{
-    background: url(../images/7.jpg)no-repeat fixed bottom;
+    background: url(../images/7.jpg)no-repeat fixed center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 /*--//clients-- */
 
 /*--footer-- */
 
-
+/* #contact{
+    margin: 0 auto;
+} */
 footer {
     background: #2c9db3;
 }
@@ -665,7 +668,7 @@ footer {
     margin-bottom: 10px;
 }
 .footer-left-grid{
-    margin-left: 100px;
+    margin:0 auto;
 }
 
 .footer_grid_left p,
@@ -676,8 +679,8 @@ footer {
     line-height: 28px;
 }
 .contact-form {
-    margin-left: 200px;
-}
+     margin: 0 auto;
+} 
 .contact-form h2{
     margin-bottom: 20px;;
 }
